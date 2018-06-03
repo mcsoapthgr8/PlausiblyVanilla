@@ -1,0 +1,17 @@
+
+[
+{
+  "modid": "blazepower",
+  "name": "BlazePower",
+  "description": "BlazePower is a mod that adds plausibly vanilla machines",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://bp.mcsoapthgr8.com",
+  "updateUrl": "",
+  "authorList": ["mcsoapthgr8"],
+  "credits": "",
+  "parent": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
