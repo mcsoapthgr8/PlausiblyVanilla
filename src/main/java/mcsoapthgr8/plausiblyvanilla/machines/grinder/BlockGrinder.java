@@ -1,4 +1,4 @@
-package mcsoapthgr8.plausiblyvanilla.machines.oregrinder;
+package mcsoapthgr8.plausiblyvanilla.machines.grinder;
 
 import net.minecraft.block.BlockContainer;
 import net.minecraft.tileentity.TileEntity;
@@ -8,9 +8,9 @@ import net.minecraft.block.SoundType;
 
 import javax.annotation.Nullable;
 
-public class BlockOreGrinder extends BlockContainer {
+public class BlockGrinder extends BlockContainer {
 
-    public BlockOreGrinder(String name) {
+    public BlockGrinder(String name) {
         super(Material.ROCK);
         this.setHarvestLevel("pickaxe", 0);
         this.setHardness(1.5F);
