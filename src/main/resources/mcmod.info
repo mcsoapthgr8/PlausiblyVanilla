@@ -1,12 +1,12 @@
 
 [
 {
-  "modid": "blazepower",
-  "name": "BlazePower",
-  "description": "BlazePower is a mod that adds plausibly vanilla machines",
+  "modid": "plausiblyvanilla",
+  "name": "Plausibly Vanilla",
+  "description": "Plausibly Vanilla is a mod that adds blocks, items, and mechanics that would plausibly fit in the vanilla Minecraft universe.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "http://bp.mcsoapthgr8.com",
+  "url": "http://pv.mcsoapthgr8.com",
   "updateUrl": "",
   "authorList": ["mcsoapthgr8"],
   "credits": "",
