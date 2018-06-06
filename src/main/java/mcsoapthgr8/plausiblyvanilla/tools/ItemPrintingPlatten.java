@@ -1,4 +1,6 @@
 package mcsoapthgr8.plausiblyvanilla.tools;
 
-public class ItemPrintingPlatten {
+import mcsoapthgr8.plausiblyvanilla.enchantments.IAllowFuelEfficiency;
+
+public class ItemPrintingPlatten implements IAllowFuelEfficiency {
 }

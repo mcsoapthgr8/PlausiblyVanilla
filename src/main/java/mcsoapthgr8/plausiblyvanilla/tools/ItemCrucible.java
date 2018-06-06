@@ -1,4 +1,6 @@
 package mcsoapthgr8.plausiblyvanilla.tools;
 
-public class ItemCrucible {
+import mcsoapthgr8.plausiblyvanilla.enchantments.IAllowFuelEfficiency;
+
+public class ItemCrucible implements IAllowFuelEfficiency {
 }

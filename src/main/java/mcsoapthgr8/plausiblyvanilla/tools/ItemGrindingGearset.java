@@ -1,4 +1,6 @@
 package mcsoapthgr8.plausiblyvanilla.tools;
 
-public class ItemGrindingGearset {
+import mcsoapthgr8.plausiblyvanilla.enchantments.IAllowFuelEfficiency;
+
+public class ItemGrindingGearset implements IAllowFuelEfficiency {
 }
