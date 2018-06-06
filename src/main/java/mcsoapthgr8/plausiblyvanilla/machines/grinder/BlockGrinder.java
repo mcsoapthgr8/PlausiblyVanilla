@@ -10,15 +10,13 @@ import javax.annotation.Nullable;
 
 public class BlockGrinder extends BlockContainer {
 
-    public BlockGrinder(String name) {
+    public BlockGrinder() {
         super(Material.ROCK);
         this.setHarvestLevel("pickaxe", 0);
         this.setHardness(1.5F);
         this.setResistance(10.0F);
         this.setSoundType(SoundType.STONE);
     }
-
-
 
     @Nullable
     @Override
