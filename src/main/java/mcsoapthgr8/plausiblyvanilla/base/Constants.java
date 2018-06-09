@@ -1,4 +1,4 @@
-package mcsoapthgr8.plausiblyvanilla.core.config;
+package mcsoapthgr8.plausiblyvanilla.base;
 
 public class Constants {
     public static final String MOD_NAME="Plausibly Vanilla";

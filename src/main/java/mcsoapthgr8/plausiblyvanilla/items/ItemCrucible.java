@@ -7,4 +7,14 @@ public class ItemCrucible extends ItemMachineRequirement implements IAllowFuelEf
     public ItemCrucible(ToolMaterial toolMaterial) {
         super(toolMaterial);
     }
+
+    @Override
+    public boolean preInit() {
+        return false;
+    }
+
+    @Override
+    public boolean initialize() {
+        return false;
+    }
 }

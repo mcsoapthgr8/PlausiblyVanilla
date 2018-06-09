@@ -7,4 +7,14 @@ public class ItemGrindingGearset extends ItemMachineRequirement implements IAllo
     public ItemGrindingGearset(ToolMaterial toolMaterial) {
         super(toolMaterial);
     }
+
+    @Override
+    public boolean preInit() {
+        return false;
+    }
+
+    @Override
+    public boolean initialize() {
+        return false;
+    }
 }

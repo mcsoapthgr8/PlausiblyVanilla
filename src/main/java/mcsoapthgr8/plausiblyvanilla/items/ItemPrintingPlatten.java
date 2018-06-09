@@ -7,4 +7,14 @@ public class ItemPrintingPlatten extends ItemMachineRequirement {
     public ItemPrintingPlatten(ToolMaterial toolMaterial) {
         super(toolMaterial);
     }
+
+    @Override
+    public boolean preInit() {
+        return false;
+    }
+
+    @Override
+    public boolean initialize() {
+        return false;
+    }
 }

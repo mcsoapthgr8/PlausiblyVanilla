@@ -1,7 +1,6 @@
 package mcsoapthgr8.plausiblyvanilla.base.blocks;
 
 import mcsoapthgr8.plausiblyvanilla.machines.grinder.BlockGrinder;
-import net.minecraft.block.Block;
 import net.minecraft.item.crafting.IRecipe;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;

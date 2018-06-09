@@ -1,9 +1,10 @@
 package mcsoapthgr8.plausiblyvanilla.base.items;
 
-import mcsoapthgr8.plausiblyvanilla.core.config.Constants;
+import mcsoapthgr8.plausiblyvanilla.base.Constants;
+import mcsoapthgr8.plausiblyvanilla.base.IInitializer;
 import net.minecraft.item.Item;
 
-public abstract class ItemBase extends Item {
+public abstract class ItemBase extends Item implements IInitializer {
     protected String name;
 
     @Override

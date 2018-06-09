@@ -3,7 +3,7 @@ package mcsoapthgr8.plausiblyvanilla.items;
 import com.google.common.collect.ImmutableList;
 import mcsoapthgr8.plausiblyvanilla.base.IInitializer;
 import mcsoapthgr8.plausiblyvanilla.base.items.ItemBase;
-import mcsoapthgr8.plausiblyvanilla.core.config.Constants;
+import mcsoapthgr8.plausiblyvanilla.base.Constants;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.EnumRarity;
@@ -40,6 +40,7 @@ public class ItemMaterial extends ItemBase implements IInitializer {
         setCreativeTab(CreativeTabs.MATERIALS);
         setHasSubtypes(true);
         setMaxDamage(0);
+        setMaxStackSize(64);
     }
 
     @Override

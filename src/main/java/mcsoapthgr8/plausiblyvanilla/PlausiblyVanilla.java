@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
 
-import mcsoapthgr8.plausiblyvanilla.core.config.Constants;
+import mcsoapthgr8.plausiblyvanilla.base.Constants;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(

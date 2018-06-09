@@ -1,6 +1,6 @@
 package mcsoapthgr8.plausiblyvanilla.enchantments;
 
-import mcsoapthgr8.plausiblyvanilla.core.config.Constants;
+import mcsoapthgr8.plausiblyvanilla.base.Constants;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
