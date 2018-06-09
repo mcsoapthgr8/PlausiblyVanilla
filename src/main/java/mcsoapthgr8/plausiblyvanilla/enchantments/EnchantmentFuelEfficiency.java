@@ -1,5 +1,6 @@
 package mcsoapthgr8.plausiblyvanilla.enchantments;
 
+import mcsoapthgr8.plausiblyvanilla.base.interfaces.IAllowFuelEfficiency;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnumEnchantmentType;
 import net.minecraft.inventory.EntityEquipmentSlot;

@@ -1,4 +1,4 @@
-package mcsoapthgr8.plausiblyvanilla.materials;
+package mcsoapthgr8.plausiblyvanilla.items;
 
 import mcsoapthgr8.plausiblyvanilla.base.IInitializer;
 import mcsoapthgr8.plausiblyvanilla.base.items.ItemBase;

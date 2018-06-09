@@ -1,4 +1,4 @@
-package mcsoapthgr8.plausiblyvanilla.materials;
+package mcsoapthgr8.plausiblyvanilla.items;
 
 import com.google.common.collect.ImmutableList;
 import mcsoapthgr8.plausiblyvanilla.base.IInitializer;

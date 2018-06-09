@@ -1,6 +1,4 @@
-package mcsoapthgr8.plausiblyvanilla.tools;
-
-import mcsoapthgr8.plausiblyvanilla.base.items.ItemToolBase;
+package mcsoapthgr8.plausiblyvanilla.items;
 
 public class ItemPrintedRecipeCard extends ItemToolBase {
     public ItemPrintedRecipeCard(float baseDamage, float attackSpeed, ToolMaterial toolMaterial) {

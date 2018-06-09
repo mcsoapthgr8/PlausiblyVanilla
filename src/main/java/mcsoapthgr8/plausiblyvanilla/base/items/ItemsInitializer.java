@@ -1,7 +1,7 @@
 package mcsoapthgr8.plausiblyvanilla.base.items;
 
 import mcsoapthgr8.plausiblyvanilla.base.IInitializer;
-import mcsoapthgr8.plausiblyvanilla.materials.ItemMaterial;
+import mcsoapthgr8.plausiblyvanilla.items.ItemMaterial;
 import net.minecraft.item.crafting.IRecipe;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
