@@ -36,7 +36,8 @@ public class ItemMaterial extends ItemBase implements IInitializer {
     private ArrayList<Integer> materialList = new ArrayList<>();
 
     public ItemMaterial() {
-        setUnlocalizedName("material");
+        super("material");
+        setTranslationKey("material");
         setCreativeTab(CreativeTabs.MATERIALS);
         setHasSubtypes(true);
         setMaxDamage(0);
@@ -131,21 +132,21 @@ public class ItemMaterial extends ItemBase implements IInitializer {
     }
 
     @Override
-    public String getUnlocalizedName(ItemStack stack) {
+    public String getTranslationKey(ItemStack stack) {
 
         int i = Items.DIAMOND.getDamage(stack);
         if (!materialMap.containsKey(i)) {
             return "item.invalid";
         }
         MaterialEntry item = materialMap.get(i);
-        return getUnlocalizedName() + "." + item.name;
+        return getTranslationKey() + "." + item.name;
     }
 
     @Override
-    public Item setUnlocalizedName(String name) {
+    public Item setTranslationKey(String name) {
         this.name = name;
         name = Constants.MOD_ID + "." + name;
-        return super.setUnlocalizedName(name);
+        return super.setTranslationKey(name);
     }
 
     public class MaterialEntry {

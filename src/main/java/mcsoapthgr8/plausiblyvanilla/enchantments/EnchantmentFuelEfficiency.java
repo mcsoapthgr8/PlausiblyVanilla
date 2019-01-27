@@ -1,5 +1,6 @@
 package mcsoapthgr8.plausiblyvanilla.enchantments;
 
+import mcsoapthgr8.plausiblyvanilla.base.Constants;
 import mcsoapthgr8.plausiblyvanilla.base.interfaces.IAllowFuelEfficiency;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnumEnchantmentType;
@@ -30,7 +31,7 @@ public class EnchantmentFuelEfficiency extends Enchantment {
 
     @Override
     public String getName() {
-        return "enchantment.plausiblyvanilla.fuelefficiency";
+        return Constants.NAME_ENCHANTMENT_FUEL_EFFICIENCY;
     }
 
     @Override
