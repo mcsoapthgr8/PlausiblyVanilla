@@ -3,10 +3,16 @@ package mcsoapthgr8.plausiblyvanilla.machines.grinder;
 import mcsoapthgr8.plausiblyvanilla.PlausiblyVanilla;
 import mcsoapthgr8.plausiblyvanilla.base.Constants;
 import mcsoapthgr8.plausiblyvanilla.base.blocks.BlockMachineBase;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.item.Item;
 import net.minecraft.tileentity.TileEntity;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
+import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 import javax.annotation.Nullable;
 
@@ -22,9 +28,8 @@ public class BlockGrinder extends BlockMachineBase {
         this.setCreativeTab(PlausiblyVanilla.creativeTab);
     }
 
-    @Nullable
-    @Override
-    public TileEntity createNewTileEntity(World world, int i) {
-        return null;
+    @SideOnly(Side.CLIENT)
+    public void initModel() {
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(this), 0, new ModelResourceLocation(getRegistryName(), "inventory"));
     }
 }

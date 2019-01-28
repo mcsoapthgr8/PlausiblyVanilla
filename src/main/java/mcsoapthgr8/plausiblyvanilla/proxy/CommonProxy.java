@@ -3,8 +3,6 @@ package mcsoapthgr8.plausiblyvanilla.proxy;
 import mcsoapthgr8.plausiblyvanilla.ModBlocks;
 import mcsoapthgr8.plausiblyvanilla.base.Constants;
 import mcsoapthgr8.plausiblyvanilla.config.Config;
-import mcsoapthgr8.plausiblyvanilla.items.ItemBlazeCore;
-import mcsoapthgr8.plausiblyvanilla.items.ItemPrintingPlaten;
 import mcsoapthgr8.plausiblyvanilla.machines.grinder.BlockGrinder;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -54,6 +52,6 @@ public class CommonProxy {
         registry.register(new ItemBlock(ModBlocks.blockGrinder).setRegistryName(ModBlocks.blockGrinder.getRegistryName()));
 
         // item-only items
-        registry.register(new ItemBlazeCore());
+        //registry.register(new ItemBlazeCore());
     }
 }

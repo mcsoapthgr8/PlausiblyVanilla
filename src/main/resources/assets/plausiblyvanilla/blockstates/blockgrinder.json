@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "cube",
+    "textures": {
+      "north": "plausiblyvanilla:blocks/blockgrinder_front",
+      "south": "plausiblyvanilla:blocks/machine_side",
+      "west": "plausiblyvanilla:blocks/machine_side",
+      "east": "plausiblyvanilla:blocks/machine_side",
+      "up": "plausiblyvanilla:blocks/machine_top",
+      "down": "plausiblyvanilla:blocks/machine_top"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}],
+    "facing": {
+      "north": {},
+      "south": {"y": 180},
+      "west":{"y": 270},
+      "east": {"y": 90},
+      "up": {"x": 90},
+      "down": {"x": 90}
+    }
+  }
+}
