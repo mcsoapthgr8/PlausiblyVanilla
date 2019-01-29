@@ -15,17 +15,20 @@ public class Constants {
     public static final String CONFIG_FILE_NAME = MOD_ID + ".cfg";
 
     // names
-    public static final String NAME_ENCHANTMENT_FUEL_EFFICIENCY = "enchantment.plausiblyvanilla.fuelefficiency";
+    // Enchantments
+    public static final String NAME_ENCHANTMENT_FUEL_EFFICIENCY = "enchantment.plausiblyvanilla.fuel_efficiency";
 
-    public static final String NAME_ITEM_GRINDING_GEARSET = "itemgrindinggearset";
-    public static final String NAME_ITEM_PRINTING_PLATEN = "itemprintingplaten";
-    public static final String NAME_ITEM_BLANK_RECIPE_CARD = "itemblankrecipecard";
-    public static final String NAME_ITEM_PRINTED_RECIPE_CARD = "itemprintedrecipecard";
-    public static final String NAME_ITEM_BLAZE_CORE = "itemblazecore";
+    // Items
+    public static final String NAME_ITEM_GRINDING_GEARSET = "grinding_gearset";
+    public static final String NAME_ITEM_PRINTING_PLATEN = "printing_platen";
+    public static final String NAME_ITEM_BLANK_RECIPE_CARD = "blank_recipe_card";
+    public static final String NAME_ITEM_PRINTED_RECIPE_CARD = "printed_recipe_card";
+    public static final String NAME_ITEM_BLAZE_CORE = "blaze_core";
 
-    public static final String NAME_BLOCK_GRINDER = "blockgrinder";
-    public static final String NAME_BLOCK_RECIPE_IMPRINTER = "blockrecipeimprinter";
-    public static final String NAME_BLOCK_ITEM_PRESS = "blockitempress";
+    // Blocks
+    public static final String NAME_BLOCK_GRINDER = "grinder";
+    public static final String NAME_BLOCK_RECIPE_IMPRINTER = "recipe_imprinter";
+    public static final String NAME_BLOCK_ITEM_PRESS = "item_press";
 
     // error messages
     public static final String ERROR_LOADING_CONFIG_FILE = "Problem loading config file!";

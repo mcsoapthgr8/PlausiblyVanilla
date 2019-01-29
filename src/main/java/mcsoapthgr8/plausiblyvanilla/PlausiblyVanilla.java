@@ -25,7 +25,7 @@ public class PlausiblyVanilla {
     @SidedProxy(clientSide = "mcsoapthgr8.plausiblyvanilla.proxy.ClientProxy", serverSide = "mcsoapthgr8.plausiblyvanilla.proxy.ServerProxy")
     public static CommonProxy proxy;
 
-    public static CreativeTabs creativeTab = new CreativeTabs("Plausibly Vanilla") {
+    public static CreativeTabs creativeTab = new CreativeTabs("plausiblyvanilla") {
         @Override
         public ItemStack createIcon() {
             return new ItemStack(ModBlocks.blockGrinder);

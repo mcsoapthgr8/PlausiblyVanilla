@@ -1,3 +1,14 @@
-tile.plausiblyvanilla.blockgrinder.name=Grinder
+# Blocks
+tile.plausiblyvanilla.grinder.name=Grinder
+tile.plausiblyvanilla.recipe_imprinter.name=Recipe Imprinter
+tile.plausiblyvanilla.item_press.name=Item Press
 
+# Items
+tile.plausiblyvanilla.blaze_core=Blaze Core
+tile.plausiblyvanilla.grinding_gearset=Grinding Gearset
+tile.plausiblyvanilla.printing_platen=Printing Platen
+tile.plausiblyvanilla.blank_recipe_card=Blank Recipe Card
+tile.plausiblyvanilla.printed_recipe_card=Printed Recipe Card
+
+# Creative tab
 itemGroup.plausiblyvanilla=Plausibly Vanilla

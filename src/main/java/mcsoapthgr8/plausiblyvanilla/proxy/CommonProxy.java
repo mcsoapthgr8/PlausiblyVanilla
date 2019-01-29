@@ -4,6 +4,8 @@ import mcsoapthgr8.plausiblyvanilla.ModBlocks;
 import mcsoapthgr8.plausiblyvanilla.base.Constants;
 import mcsoapthgr8.plausiblyvanilla.config.Config;
 import mcsoapthgr8.plausiblyvanilla.machines.grinder.BlockGrinder;
+import mcsoapthgr8.plausiblyvanilla.machines.itempress.BlockItemPress;
+import mcsoapthgr8.plausiblyvanilla.machines.recipeimprinter.BlockRecipeImprinter;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
@@ -41,7 +43,11 @@ public class CommonProxy {
 
     @SubscribeEvent
     public static void registerBlocks(RegistryEvent.Register<Block> event) {
-        event.getRegistry().register(new BlockGrinder());
+        IForgeRegistry<Block> registry = event.getRegistry();
+
+        registry.register(new BlockGrinder());
+        registry.register(new BlockRecipeImprinter());
+        registry.register(new BlockItemPress());
     }
 
     @SubscribeEvent
@@ -50,6 +56,8 @@ public class CommonProxy {
 
         // Block items
         registry.register(new ItemBlock(ModBlocks.blockGrinder).setRegistryName(ModBlocks.blockGrinder.getRegistryName()));
+        registry.register(new ItemBlock(ModBlocks.blockRecipeImprinter).setRegistryName(ModBlocks.blockRecipeImprinter.getRegistryName()));
+        registry.register(new ItemBlock(ModBlocks.blockItemPress).setRegistryName(ModBlocks.blockItemPress.getRegistryName()));
 
         // item-only items
         //registry.register(new ItemBlazeCore());
