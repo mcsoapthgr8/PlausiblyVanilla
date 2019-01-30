@@ -10,6 +10,7 @@
 # files
 !/.gitignore
 !/README.md
+!/LICENSE.md
 !/gradle.properties
 !/build.gradle
 !/build.xml
