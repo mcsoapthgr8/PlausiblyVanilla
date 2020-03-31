@@ -1,4 +1,4 @@
-# Plausibly Vanilla
+Plausibly Vanilla
 ====================================
 
 ### What is it?
