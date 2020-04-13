@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "plausiblyvanilla",
+  "version": "${version}",
+  "name": "Plausibly Vanilla",
+  "icon": "assets/plausiblyvanilla/icon.png",
+  "description": "Plausibly Vanilla is a mod that adds blocks, items, and mechanics that would plausibly fit in the vanilla Minecraft universe.",
+  "license": "MIT",
+  "contact": {
+    "homepage": "http://pv.mcsoapthgr8.com",
+    "sources": "https://github.com/mcsoapthgr8/PlausiblyVanilla"
+  },
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mcsoapthgr8.plausiblyvanilla.PlausiblyVanilla"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.15.2"
+  },
+  "authors": [
+    "mcsoapthgr8"
+  ],
+  "mixins": [
+    "plausiblyvanilla.mixins.json"
+  ]
+}
