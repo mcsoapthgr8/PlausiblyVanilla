@@ -8,19 +8,20 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 public class FuelEfficiencyEnchantment extends Enchantment {
-    public static final EquipmentSlot[] ALL_SLOTS = new EquipmentSlot[]{EquipmentSlot.MAINHAND, EquipmentSlot.OFFHAND};
+    public static final EquipmentSlot[] ALL_SLOTS = new EquipmentSlot[] {EquipmentSlot.CHEST,EquipmentSlot.FEET,EquipmentSlot.HEAD,EquipmentSlot.LEGS,EquipmentSlot.MAINHAND,EquipmentSlot.OFFHAND};
 
     public FuelEfficiencyEnchantment() {
-        super(Rarity.RARE, EnchantmentTarget.DIGGER, ALL_SLOTS);
+        super(Weight.RARE, EnchantmentTarget.ALL, ALL_SLOTS);
     }
 
     @Override
-    public int getMinPower(int level) {
+    public int getMinimumPower(int level) {
         return 1;
     }
 
     @Override
-    public int getMaxLevel() {
+    public int getMaximumLevel()
+    {
         return 5;
     }
 

@@ -3,7 +3,8 @@ package com.mcsoapthgr8.plausiblyvanilla.config;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.mcsoapthgr8.plausiblyvanilla.base.Constants;
-import com.mcsoapthgr8.plausiblyvanilla.utils.LogAdapter;
+import net.fabricmc.loader.api.FabricLoader;
+import org.apache.logging.log4j.Logger;
 
 import java.io.File;
 import java.io.FileReader;
@@ -12,8 +13,8 @@ import java.io.IOException;
 
 public class Configuration {
 
-    public static Configuration initialize(LogAdapter logger) {
-        File configFile = new File(FabricLoader.getInstance().getConfigDir().toFile(), Constants.CONFIG_FILE_NAME);
+    public static Configuration initialize(Logger logger) {
+        File configFile = new File(FabricLoader.getInstance().getConfigDirectory().getPath(), Constants.CONFIG_FILE_NAME);
 
         Configuration result = null;
 
