@@ -25,7 +25,7 @@ public class Constants {
     public static final String IRON_TIER = "iron";
     public static final String GOLDEN_TIER = "golden";
     public static final String DIAMOND_TIER = "diamond";
-    //public static final String NETHERITE_TIER = "netherite";
+    public static final String NETHERITE_TIER = "netherite";
 
     // Tiered Items
     public static final String NAME_ITEM_GRINDING_GEARSET = "grinding_gearset";
