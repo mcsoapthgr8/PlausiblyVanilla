@@ -14,7 +14,7 @@ import java.io.IOException;
 public class Configuration {
 
     public static Configuration initialize(Logger logger) {
-        File configFile = new File(FabricLoader.getInstance().getConfigDirectory().getPath(), Constants.CONFIG_FILE_NAME);
+        File configFile = new File(FabricLoader.getInstance().getConfigDir().toFile(), Constants.CONFIG_FILE_NAME);
 
         Configuration result = null;
 
