@@ -1,21 +1,18 @@
 {
-  "result": {
-    "item": "plausiblyvanilla:recipe_imprinter"
-  },
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "CBC",
     "CPC",
     "OIO"
   ],
-  "type": "forge:ore_shaped",
   "key": {
     "C": {
-      "type": "forge:ore_dict", "ore": "cobblestone"
+      "item": "minecraft:cobblestone"
     },
     "B": {
       "item": "plausiblyvanilla:blaze_core"
     },
-    "P":[
+    "P": [
       {
         "item": "minecraft:piston"
       },
@@ -24,10 +21,14 @@
       }
     ],
     "O": {
-      "type": "forge:ore_dict", "ore": "obsidian"
+      "item": "minecraft:obsidian"
     },
     "I": {
-      "type": "forge:ore_dict", "ore": "ingotIron"
+      "item": "minecraft:iron_ingot"
     }
+  },
+  "result": {
+    "item": "plausiblyvanilla:recipe_imprinter",
+    "count": 1
   }
 }

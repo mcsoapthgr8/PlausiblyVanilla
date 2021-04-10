@@ -1,24 +1,21 @@
 {
-  "result": {
-    "item": "plausiblyvanilla:grinder"
-  },
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "CCC",
     "IBI",
     "CPC"
   ],
-  "type": "forge:ore_shaped",
   "key": {
     "C": {
-      "type": "forge:ore_dict", "ore": "cobblestone"
+      "item": "minecraft:cobblestone"
     },
     "I": {
-      "type": "forge:ore_dict", "ore": "ingotIron"
+      "item": "minecraft:iron_ingot"
     },
     "B": {
       "item": "plausiblyvanilla:blaze_core"
     },
-    "P":[
+    "P": [
       {
         "item": "minecraft:piston"
       },
@@ -26,5 +23,9 @@
         "item": "minecraft:sticky_piston"
       }
     ]
+  },
+  "result": {
+    "item": "plausiblyvanilla:grinder",
+    "count": 1
   }
 }

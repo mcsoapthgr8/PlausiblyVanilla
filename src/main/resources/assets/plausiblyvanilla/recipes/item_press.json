@@ -1,18 +1,15 @@
 {
-  "result": {
-    "item": "plausiblyvanilla:item_press"
-  },
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "CCC",
     "POP",
     "IBI"
   ],
-  "type": "forge:ore_shaped",
   "key": {
     "C": {
-      "type": "forge:ore_dict", "ore": "cobblestone"
+      "item": "minecraft:cobblestone"
     },
-    "P":[
+    "P": [
       {
         "item": "minecraft:piston"
       },
@@ -21,13 +18,17 @@
       }
     ],
     "O": {
-      "type": "forge:ore_dict", "ore": "obsidian"
+      "item": "minecraft:obsidian"
     },
     "I": {
-      "type": "forge:ore_dict", "ore": "ingotIron"
+      "item": "minecraft:iron_ingot"
     },
     "B": {
       "item": "plausiblyvanilla:blaze_core"
     }
+  },
+  "result": {
+    "item": "plausiblyvanilla:item_press",
+    "count": 1
   }
 }
