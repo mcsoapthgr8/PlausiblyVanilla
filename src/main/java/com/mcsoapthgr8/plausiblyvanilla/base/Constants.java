@@ -17,7 +17,7 @@ public class Constants {
 
     // names
     // Enchantments
-    public static final String NAME_ENCHANTMENT_FUEL_EFFICIENCY = "enchantment.plausiblyvanilla.fuel_efficiency";
+    public static final String NAME_ENCHANTMENT_FUEL_EFFICIENCY = "fuel_efficiency";
 
     // Tiers
     public static final String WOODEN_TIER = "wooden";
@@ -40,7 +40,7 @@ public class Constants {
     public static final String GROUND_PREFIX = "ground";
 
     // Item Groups
-    public static final String NAME_BLAZE_POWER = "blaze_power";
+    public static final String NAME_ITEM_GROUP = "item_group";
 
     // Blocks
     public static final String NAME_BLOCK_GRINDER = "grinder";

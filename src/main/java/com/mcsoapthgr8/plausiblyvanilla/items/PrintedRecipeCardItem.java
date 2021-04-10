@@ -6,6 +6,6 @@ import net.minecraft.item.Item;
 
 public class PrintedRecipeCardItem extends Item implements IDamageable {
     public PrintedRecipeCardItem() {
-        super(new Item.Settings().group(PVItemGroups.BLAZE_POWER));
+        super(new Item.Settings().group(PVItemGroups.BLAZE_POWER).maxCount(1));
     }
 }
